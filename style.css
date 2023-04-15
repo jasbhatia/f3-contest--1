@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap");
+
+body {
+  background-color: rgb(0, 0, 0);
+  color: white;
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", sans-serif;
+  display: flex;
+  justify-content: center;
+}
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  width: 90%;
+  margin: 4em;
+}
+form {
+  margin-top: 2em;
+}
+
+form label {
+  margin-bottom: 0.5em;
+}
+.form-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 4em;
+}
+form input {
+  width: 22em;
+  padding: 7px;
+  background-color: black;
+  font-family: "Inter", sans-serif;
+  border: 1px solid white;
+  /* outline: invert; */
+  border-radius: 2px;
+  color: white;
+}
+form input:hover {
+  outline: none;
+  /* border: none; */
+  cursor: pointer;
+}
+.input-div {
+  display: flex;
+  flex-direction: column;
+}
+button {
+  width: 12em;
+  padding: 0.7em 1.1em;
+  background-color: white;
+  color: black;
+  margin-top: 2em;
+  font-weight: bold;
+}
+.errorMessage {
+}
+
+.heading {
+  margin-top: 3em;
+  margin-bottom: 2em;
+}
+
+#error-message {
+  color: red;
+  margin-bottom: 10px;
+}
+#success-message {
+  color: green;
+  margin-bottom: 10px;
+}
+
+.emp-list {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid gray;
+  width: 55%;
+  gap: 20px;
+  height: 62px;
+  font-size: 15px;
+}
+.delete-employee-button {
+  color: black;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-left: 63px;
+  margin-top: 7px;
+}
+#addedEmp {
+  color: rgb(255, 249, 249);
+}
